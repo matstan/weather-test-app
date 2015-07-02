@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.weather.test.app</groupId>
+	<artifactId>weather-test-app</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>Weather test app</name>
+	<description>Test app for learning GAE basics</description>
+
+	
+
+  <modules>
+    <module>weather-test-data-parser</module>
+    <module>weather-test-gae</module>
+  </modules>
+</project>
