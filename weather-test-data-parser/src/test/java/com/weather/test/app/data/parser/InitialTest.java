@@ -12,6 +12,7 @@ import org.junit.runners.JUnit4;
 @RunWith(JUnit4.class)
 public class InitialTest {
 
+
     @Test
     public void initialTest() {
         Assert.assertEquals(true, true);
