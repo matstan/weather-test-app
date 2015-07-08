@@ -17,7 +17,7 @@
     <properties>
         <app.id>weather-test-gae-app</app.id>
         <app.version>1</app.version>
-        <appengine.version>1.9.22</appengine.version>
+        <appengine.version>1.9.23</appengine.version>
         <gcloud.plugin.version>0.9.58.v20150505</gcloud.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
