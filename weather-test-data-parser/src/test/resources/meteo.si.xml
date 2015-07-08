@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data id="MeteoSI_WebMet_observation_xml">
+    <language>sl</language>
+    <credit>meteo.si - ARSO</credit>
+    <credit_url>http://www.meteo.si/</credit_url>
+    <image_url>http://www.meteo.si/uploads/meteo/style/img/logo/meteoSI_logo_medium.png</image_url>
+    <suggested_pickup>25 minutes after hour</suggested_pickup>
+    <suggested_pickup_period>60</suggested_pickup_period>
+    <icon_url_base>http://www.meteo.si/uploads/meteo/style/img/weather/</icon_url_base>
+    <icon_format>png</icon_format>
+    <docs_url>http://www.meteo.si/uploads/meteo/help/sl/xml_service.html</docs_url>
+    <disclaimer_url>http://www.meteo.si/uploads/met/sl/policy/disclaimer.html</disclaimer_url>
+    <copyright_url>http://www.meteo.si/uploads/met/sl/policy/disclaimer.html</copyright_url>
+    <privacy_policy_url>http://www.meteo.si/uploads/met/sl/policy/notice.html</privacy_policy_url>
+    <managing_editor>gp.arso@gov.si (meteo.si - ARSO)</managing_editor>
+    <web_master>gp.arso@gov.si (meteo.si - ARSO)</web_master>
+    <generator>AutoPro/ProCreator</generator>
+    <collection>si</collection>
+    <meteosi_url>http://www.meteo.si/uploads/probase/www/observ/surface/text/sl/observation_si_latest.html</meteosi_url>
+    <two_day_history_url/>
+    <metData>
+        <domain_meteosiId>NOVA-GOR_</domain_meteosiId>
+        <domain_id>64795637</domain_id>
+        <domain_parentId>SI_GORISKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.8958</domain_lat>
+        <domain_lon>13.6289</domain_lon>
+        <domain_altitude>55</domain_altitude>
+        <domain_title>NOVA GORICA</domain_title>
+        <domain_shortTitle>BILJE</domain_shortTitle>
+        <domain_longTitle>Bilje pri Novi Gorici</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:23 CEST</sunrise>
+        <sunset>08.07.2015 20:57 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>29</t>
+        <t_degreesC>29</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh/>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td/>
+        <td_degreesC/>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>202</dd_val>
+        <dd_icon>S</dd_icon>
+        <dd_shortText>J</dd_shortText>
+        <dd_longText>južni veter</dd_longText>
+        <dd_decodeText>S</dd_decodeText>
+        <ddff_icon>lightS</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>1</ff_val>
+        <ff_val_kmh>4</ff_val_kmh>
+        <ff_value>1</ff_value>
+        <ff_value_kmh>4</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>2</ff_maximum>
+        <ff_maximum_kmh>7</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>CELJE_</domain_meteosiId>
+        <domain_id>64768320</domain_id>
+        <domain_parentId>SI_SAVINJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.2447</domain_lat>
+        <domain_lon>15.2525</domain_lon>
+        <domain_altitude>244</domain_altitude>
+        <domain_title>CELJE</domain_title>
+        <domain_shortTitle>CELJE</domain_shortTitle>
+        <domain_longTitle>Celje</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:16 CEST</sunrise>
+        <sunset>08.07.2015 20:52 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>25</t>
+        <t_degreesC>25</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>67</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>18</td>
+        <td_degreesC>18</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>97</dd_val>
+        <dd_icon>E</dd_icon>
+        <dd_shortText>V</dd_shortText>
+        <dd_longText>vzhodnik</dd_longText>
+        <dd_decodeText>E</dd_decodeText>
+        <ddff_icon>modE</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>6</ff_val>
+        <ff_val_kmh>22</ff_val_kmh>
+        <ff_value>7</ff_value>
+        <ff_value_kmh>25</ff_value_kmh>
+        <ff_minimum>6</ff_minimum>
+        <ff_minimum_kmh>22</ff_minimum_kmh>
+        <ff_maximum>8</ff_maximum>
+        <ff_maximum_kmh>29</ff_maximum_kmh>
+        <ff_icon>mod</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val>12</ffmax_val>
+        <ffmax_val_kmh>43</ffmax_val_kmh>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1008</msl>
+        <msl_mb>1008</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>CRNOMELJ_</domain_meteosiId>
+        <domain_id>64781074</domain_id>
+        <domain_parentId>SI_BELOKRANJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.5603</domain_lat>
+        <domain_lon>15.1508</domain_lon>
+        <domain_altitude>157</domain_altitude>
+        <domain_title>CRNOMELJ</domain_title>
+        <domain_shortTitle>ČRNOMELJ - DOBLIČE</domain_shortTitle>
+        <domain_longTitle>Črnomelj</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:19 CEST</sunrise>
+        <sunset>08.07.2015 20:50 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>32</t>
+        <t_degreesC>32</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>41</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>18</td>
+        <td_degreesC>18</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>230</dd_val>
+        <dd_icon>SW</dd_icon>
+        <dd_shortText>JZ</dd_shortText>
+        <dd_longText>jugozahodnik</dd_longText>
+        <dd_decodeText>SW</dd_decodeText>
+        <ddff_icon>lightSW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>2</ff_val>
+        <ff_val_kmh>7</ff_val_kmh>
+        <ff_value>2</ff_value>
+        <ff_value_kmh>7</ff_value_kmh>
+        <ff_minimum>2</ff_minimum>
+        <ff_minimum_kmh>7</ff_minimum_kmh>
+        <ff_maximum>3</ff_maximum>
+        <ff_maximum_kmh>11</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1006</msl>
+        <msl_mb>1006</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>KREDA-ICA_</domain_meteosiId>
+        <domain_id>64777659</domain_id>
+        <domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.3794</domain_lat>
+        <domain_lon>13.8539</domain_lon>
+        <domain_altitude>2514</domain_altitude>
+        <domain_title>KREDARICA</domain_title>
+        <domain_shortTitle>KREDARICA</domain_shortTitle>
+        <domain_longTitle>Kredarica</domain_longTitle>
+        <title>AAXX</title>
+        <sunrise>08.07.2015 5:21 CEST</sunrise>
+        <sunset>08.07.2015 20:58 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon>FG</nn_icon>
+        <nn_shortText>v oblakih</nn_shortText>
+        <nn_decodeText>v9/8</nn_decodeText>
+        <wwsyn_icon>lightSHRA</wwsyn_icon>
+        <wwsyn_shortText>manjša ploha</wwsyn_shortText>
+        <wwsyn_longText>manjša ploha</wwsyn_longText>
+        <nn_icon-wwsyn_icon>FG_lightSHRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>10</t>
+        <t_degreesC>10</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>0</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>98</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>10</td>
+        <td_degreesC>10</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>118</dd_val>
+        <dd_icon>SE</dd_icon>
+        <dd_shortText>JV</dd_shortText>
+        <dd_longText>jugovzhodnik</dd_longText>
+        <dd_decodeText>SE</dd_decodeText>
+        <ddff_icon>modSE</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>6</ff_val>
+        <ff_val_kmh>22</ff_val_kmh>
+        <ff_value>7</ff_value>
+        <ff_value_kmh>25</ff_value_kmh>
+        <ff_minimum>6</ff_minimum>
+        <ff_minimum_kmh>22</ff_minimum_kmh>
+        <ff_maximum>8</ff_maximum>
+        <ff_maximum_kmh>29</ff_maximum_kmh>
+        <ff_icon>mod</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val>16.5</ffmax_val>
+        <ffmax_val_kmh>59</ffmax_val_kmh>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>CERKLJE_LETAL-SCE_</domain_meteosiId>
+        <domain_id>65358572</domain_id>
+        <domain_parentId>SI_SPODNJEPOSAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.8936</domain_lat>
+        <domain_lon>15.525</domain_lon>
+        <domain_altitude>154</domain_altitude>
+        <domain_title>CERKLJE - LETALISCE</domain_title>
+        <domain_shortTitle>CERKLJE - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Cerklje ob Krki</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:16 CEST</sunrise>
+        <sunset>08.07.2015 20:50 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon>prevCloudy</nn_icon>
+        <nn_shortText>pretežno oblačno</nn_shortText>
+        <nn_decodeText>6/8 .. 7/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon>prevCloudy</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>29</t>
+        <t_degreesC>29</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>58</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>20</td>
+        <td_degreesC>20</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>60</dd_val>
+        <dd_icon>NE</dd_icon>
+        <dd_shortText>SV</dd_shortText>
+        <dd_longText>severovzhodnik</dd_longText>
+        <dd_decodeText>NE</dd_decodeText>
+        <ddff_icon>lightNE</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>5</ff_val>
+        <ff_val_kmh>18</ff_val_kmh>
+        <ff_value>4</ff_value>
+        <ff_value_kmh>14</ff_value_kmh>
+        <ff_minimum>3</ff_minimum>
+        <ff_minimum_kmh>11</ff_minimum_kmh>
+        <ff_maximum>6</ff_maximum>
+        <ff_maximum_kmh>22</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1006</msl>
+        <msl_mb>1006</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>MARIBOR_SLIVNICA_</domain_meteosiId>
+        <domain_id>64771898</domain_id>
+        <domain_parentId>SI_PODRAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.48</domain_lat>
+        <domain_lon>15.6869</domain_lon>
+        <domain_altitude>264</domain_altitude>
+        <domain_title>MARIBOR/SLIVNICA</domain_title>
+        <domain_shortTitle>MARIBOR - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Edvarda Rusjana Maribor</domain_longTitle>
+        <title>AAXX</title>
+        <sunrise>08.07.2015 5:13 CEST</sunrise>
+        <sunset>08.07.2015 20:51 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>22</t>
+        <t_degreesC>22</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>77</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>18</td>
+        <td_degreesC>18</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>34</dd_val>
+        <dd_icon>NE</dd_icon>
+        <dd_shortText>SV</dd_shortText>
+        <dd_longText>severovzhodnik</dd_longText>
+        <dd_decodeText>NE</dd_decodeText>
+        <ddff_icon>lightNE</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>2.7</ff_val>
+        <ff_val_kmh>10</ff_val_kmh>
+        <ff_value>2</ff_value>
+        <ff_value_kmh>7</ff_value_kmh>
+        <ff_minimum>2</ff_minimum>
+        <ff_minimum_kmh>7</ff_minimum_kmh>
+        <ff_maximum>3</ff_maximum>
+        <ff_maximum_kmh>11</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1010</msl>
+        <msl_mb>1010</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LJUBL-ANA_BRNIK_</domain_meteosiId>
+        <domain_id>64771022</domain_id>
+        <domain_parentId>SI_GORENJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.2178</domain_lat>
+        <domain_lon>14.4775</domain_lon>
+        <domain_altitude>364</domain_altitude>
+        <domain_title>LJUBLJANA/BRNIK</domain_title>
+        <domain_shortTitle>BRNIK - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Jožeta Pučnika Ljubljana</domain_longTitle>
+        <title>AAXX</title>
+        <sunrise>08.07.2015 5:19 CEST</sunrise>
+        <sunset>08.07.2015 20:55 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon>prevCloudy</nn_icon>
+        <nn_shortText>pretežno oblačno</nn_shortText>
+        <nn_decodeText>6/8 .. 7/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon>prevCloudy</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>29</t>
+        <t_degreesC>29</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>30</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>51</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>18</td>
+        <td_degreesC>18</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>208</dd_val>
+        <dd_icon>SW</dd_icon>
+        <dd_shortText>JZ</dd_shortText>
+        <dd_longText>jugozahodnik</dd_longText>
+        <dd_decodeText>SW</dd_decodeText>
+        <ddff_icon>lightSW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>3.3</ff_val>
+        <ff_val_kmh>12</ff_val_kmh>
+        <ff_value>4</ff_value>
+        <ff_value_kmh>14</ff_value_kmh>
+        <ff_minimum>3</ff_minimum>
+        <ff_minimum_kmh>11</ff_minimum_kmh>
+        <ff_maximum>6</ff_maximum>
+        <ff_maximum_kmh>22</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1005</msl>
+        <msl_mb>1005</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LESCE_</domain_meteosiId>
+        <domain_id>64769915</domain_id>
+        <domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.37</domain_lat>
+        <domain_lon>14.18</domain_lon>
+        <domain_altitude>515</domain_altitude>
+        <domain_title>LESCE</domain_title>
+        <domain_shortTitle>LESCE</domain_shortTitle>
+        <domain_longTitle>Letališče Lesce</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:19 CEST</sunrise>
+        <sunset>08.07.2015 20:57 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>27</t>
+        <t_degreesC>27</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>61</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>19</td>
+        <td_degreesC>19</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>264</dd_val>
+        <dd_icon>W</dd_icon>
+        <dd_shortText>Z</dd_shortText>
+        <dd_longText>zahodnik</dd_longText>
+        <dd_decodeText>W</dd_decodeText>
+        <ddff_icon>lightW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>3</ff_val>
+        <ff_val_kmh>11</ff_val_kmh>
+        <ff_value>4</ff_value>
+        <ff_value_kmh>14</ff_value_kmh>
+        <ff_minimum>3</ff_minimum>
+        <ff_minimum_kmh>11</ff_minimum_kmh>
+        <ff_maximum>6</ff_maximum>
+        <ff_maximum_kmh>22</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1005</msl>
+        <msl_mb>1005</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>PORTOROZ_SECOVLJE_</domain_meteosiId>
+        <domain_id>64791667</domain_id>
+        <domain_parentId>SI_OBALNO-KRASKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.4756</domain_lat>
+        <domain_lon>13.6206</domain_lon>
+        <domain_altitude>2</domain_altitude>
+        <domain_title>PORTOROZ/SECOVLJE</domain_title>
+        <domain_shortTitle>PORTOROŽ - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Portorož</domain_longTitle>
+        <title>AAXX</title>
+        <sunrise>08.07.2015 5:25 CEST</sunrise>
+        <sunset>08.07.2015 20:56 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>30</t>
+        <t_degreesC>30</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>52</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>19</td>
+        <td_degreesC>19</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>187</dd_val>
+        <dd_icon>S</dd_icon>
+        <dd_shortText>J</dd_shortText>
+        <dd_longText>južni veter</dd_longText>
+        <dd_decodeText>S</dd_decodeText>
+        <ddff_icon>lightS</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>3.9</ff_val>
+        <ff_val_kmh>14</ff_val_kmh>
+        <ff_value>4</ff_value>
+        <ff_value_kmh>14</ff_value_kmh>
+        <ff_minimum>3</ff_minimum>
+        <ff_minimum_kmh>11</ff_minimum_kmh>
+        <ff_maximum>6</ff_maximum>
+        <ff_maximum_kmh>22</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1005</msl>
+        <msl_mb>1005</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>sea-coast</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LISCA_</domain_meteosiId>
+        <domain_id>64782292</domain_id>
+        <domain_parentId>SI_SPODNJEPOSAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.0681</domain_lat>
+        <domain_lon>15.2897</domain_lon>
+        <domain_altitude>943</domain_altitude>
+        <domain_title>LISCA</domain_title>
+        <domain_shortTitle>LISCA</domain_shortTitle>
+        <domain_longTitle>Lisca</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:16 CEST</sunrise>
+        <sunset>08.07.2015 20:51 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>22</t>
+        <t_degreesC>22</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>79</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>18</td>
+        <td_degreesC>18</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>10</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>lightN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>2.7</ff_val>
+        <ff_val_kmh>10</ff_val_kmh>
+        <ff_value>2</ff_value>
+        <ff_value_kmh>7</ff_value_kmh>
+        <ff_minimum>2</ff_minimum>
+        <ff_minimum_kmh>7</ff_minimum_kmh>
+        <ff_maximum>3</ff_maximum>
+        <ff_maximum_kmh>11</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LJUBL-ANA_BEZIGRAD_</domain_meteosiId>
+        <domain_id>65142878</domain_id>
+        <domain_parentId>SI_OSREDNJESLOVENSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.0658</domain_lat>
+        <domain_lon>14.5172</domain_lon>
+        <domain_altitude>299</domain_altitude>
+        <domain_title>LJUBLJANA/BEZIGRAD</domain_title>
+        <domain_shortTitle>LJUBLJANA - BEŽIGRAD</domain_shortTitle>
+        <domain_longTitle>Ljubljana</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:19 CEST</sunrise>
+        <sunset>08.07.2015 20:54 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>30</t>
+        <t_degreesC>30</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>44</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>17</td>
+        <td_degreesC>17</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>247</dd_val>
+        <dd_icon>SW</dd_icon>
+        <dd_shortText>JZ</dd_shortText>
+        <dd_longText>jugozahodnik</dd_longText>
+        <dd_decodeText>SW</dd_decodeText>
+        <ddff_icon>lightSW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>3.2</ff_val>
+        <ff_val_kmh>12</ff_val_kmh>
+        <ff_value>4</ff_value>
+        <ff_value_kmh>14</ff_value_kmh>
+        <ff_minimum>3</ff_minimum>
+        <ff_minimum_kmh>11</ff_minimum_kmh>
+        <ff_maximum>6</ff_maximum>
+        <ff_maximum_kmh>22</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1005</msl>
+        <msl_mb>1005</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>MURSK-SOB_</domain_meteosiId>
+        <domain_id>64772156</domain_id>
+        <domain_parentId>SI_POMURSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.6525</domain_lat>
+        <domain_lon>16.1961</domain_lon>
+        <domain_altitude>188</domain_altitude>
+        <domain_title>MURSKA SOBOTA</domain_title>
+        <domain_shortTitle>MURSKA SOBOTA - RAKIČAN</domain_shortTitle>
+        <domain_longTitle>Murska Sobota</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:10 CEST</sunrise>
+        <sunset>08.07.2015 20:50 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>20</t>
+        <t_degreesC>20</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>93</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>19</td>
+        <td_degreesC>19</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>3</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>lightN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>3.1</ff_val>
+        <ff_val_kmh>11</ff_val_kmh>
+        <ff_value>4</ff_value>
+        <ff_value_kmh>14</ff_value_kmh>
+        <ff_minimum>3</ff_minimum>
+        <ff_minimum_kmh>11</ff_minimum_kmh>
+        <ff_maximum>6</ff_maximum>
+        <ff_maximum_kmh>22</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>NOVO-MES_</domain_meteosiId>
+        <domain_id>64783785</domain_id>
+        <domain_parentId>SI_DOLENJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.8019</domain_lat>
+        <domain_lon>15.1822</domain_lon>
+        <domain_altitude>220</domain_altitude>
+        <domain_title>NOVO MESTO</domain_title>
+        <domain_shortTitle>NOVO MESTO</domain_shortTitle>
+        <domain_longTitle>Novo mesto</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:18 CEST</sunrise>
+        <sunset>08.07.2015 20:51 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t/>
+        <t_degreesC/>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh/>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td/>
+        <td_degreesC/>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val/>
+        <dd_icon/>
+        <dd_shortText/>
+        <dd_longText/>
+        <dd_decodeText/>
+        <ddff_icon/>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val/>
+        <ff_val_kmh/>
+        <ff_value/>
+        <ff_value_kmh/>
+        <ff_minimum/>
+        <ff_minimum_kmh/>
+        <ff_maximum/>
+        <ff_maximum_kmh/>
+        <ff_icon/>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>POSTOJNA_</domain_meteosiId>
+        <domain_id>64770646</domain_id>
+        <domain_parentId>SI_NOTRANJSKO-KRASKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.7664</domain_lat>
+        <domain_lon>14.1975</domain_lon>
+        <domain_altitude>533</domain_altitude>
+        <domain_title>POSTOJNA</domain_title>
+        <domain_shortTitle>POSTOJNA</domain_shortTitle>
+        <domain_longTitle>Postojna</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:22 CEST</sunrise>
+        <sunset>08.07.2015 20:54 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>26</t>
+        <t_degreesC>26</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>53</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>16</td>
+        <td_degreesC>16</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>180</dd_val>
+        <dd_icon>S</dd_icon>
+        <dd_shortText>J</dd_shortText>
+        <dd_longText>južni veter</dd_longText>
+        <dd_decodeText>S</dd_decodeText>
+        <ddff_icon>lightS</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>2.5</ff_val>
+        <ff_val_kmh>9</ff_val_kmh>
+        <ff_value>2</ff_value>
+        <ff_value_kmh>7</ff_value_kmh>
+        <ff_minimum>2</ff_minimum>
+        <ff_minimum_kmh>7</ff_minimum_kmh>
+        <ff_maximum>3</ff_maximum>
+        <ff_maximum_kmh>11</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>RATECE_</domain_meteosiId>
+        <domain_id>64765312</domain_id>
+        <domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.4975</domain_lat>
+        <domain_lon>13.7175</domain_lon>
+        <domain_altitude>864</domain_altitude>
+        <domain_title>RATECE</domain_title>
+        <domain_shortTitle>RATEČE - PLANICA</domain_shortTitle>
+        <domain_longTitle>Rateče</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:21 CEST</sunrise>
+        <sunset>08.07.2015 20:59 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon>modSHRA</wwsyn_icon>
+        <wwsyn_shortText>plohe</wwsyn_shortText>
+        <wwsyn_longText>ploha</wwsyn_longText>
+        <nn_icon-wwsyn_icon>modSHRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>18</t>
+        <t_degreesC>18</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>2</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>83</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>15</td>
+        <td_degreesC>15</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>326</dd_val>
+        <dd_icon>NW</dd_icon>
+        <dd_shortText>SZ</dd_shortText>
+        <dd_longText>severozahodnik</dd_longText>
+        <dd_decodeText>NW</dd_decodeText>
+        <ddff_icon>lightNW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>2.3</ff_val>
+        <ff_val_kmh>8</ff_val_kmh>
+        <ff_value>2</ff_value>
+        <ff_value_kmh>7</ff_value_kmh>
+        <ff_minimum>2</ff_minimum>
+        <ff_minimum_kmh>7</ff_minimum_kmh>
+        <ff_maximum>3</ff_maximum>
+        <ff_maximum_kmh>11</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val>10.3</ffmax_val>
+        <ffmax_val_kmh>37</ffmax_val_kmh>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain-valley</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>SLOVE-GRA_</domain_meteosiId>
+        <domain_id>64783196</domain_id>
+        <domain_parentId>SI_KOROSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.49</domain_lat>
+        <domain_lon>15.1161</domain_lon>
+        <domain_altitude>455</domain_altitude>
+        <domain_title>SLOVENJ GRADEC</domain_title>
+        <domain_shortTitle>ŠMARTNO PRI SLOVENJ GRADCU</domain_shortTitle>
+        <domain_longTitle>Slovenj Gradec</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>08.07.2015 5:15 CEST</sunrise>
+        <sunset>08.07.2015 20:54 CEST</sunset>
+        <tsValid_issued>08.07.2015 19:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Sreda CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>08.07.2015 17:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>08 Jul 2015 17:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>08.07.2015 19:32 CEST</tsUpdated>
+        <tsUpdated_day>Sreda CEST</tsUpdated_day>
+        <tsUpdated_UTC>08.07.2015 17:32 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>08 Jul 2015 17:32:00 +0000</tsUpdated_RFC822>
+        <valid_day>Sreda CEST</valid_day>
+        <valid>08.07.2015 19:00 CEST</valid>
+        <valid_UTC>08.07.2015 17:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>23</t>
+        <t_degreesC>23</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlaga</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>82</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>20</td>
+        <td_degreesC>20</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>279</dd_val>
+        <dd_icon>W</dd_icon>
+        <dd_shortText>Z</dd_shortText>
+        <dd_longText>zahodnik</dd_longText>
+        <dd_decodeText>W</dd_decodeText>
+        <ddff_icon>lightW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>1.4</ff_val>
+        <ff_val_kmh>5</ff_val_kmh>
+        <ff_value>1</ff_value>
+        <ff_value_kmh>4</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>2</ff_maximum>
+        <ff_maximum_kmh>7</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val>10.4</ffmax_val>
+        <ffmax_val_kmh>37</ffmax_val_kmh>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh/>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+</data>
