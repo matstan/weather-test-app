@@ -15,9 +15,9 @@
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.7.2</version>
+            <groupId>com.weather.test.app</groupId>
+            <artifactId>weather-test-dm</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
