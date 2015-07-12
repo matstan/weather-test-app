@@ -1,6 +1,7 @@
 package com.weather.test.app.data.parser;
 
 import com.weather.test.app.dm.WeatherReadingDto;
+import org.jvnet.hk2.annotations.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
@@ -19,6 +20,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+@Service
 public class WeatherDataParserImpl implements WeatherDataParser {
 
     private static Logger log = LoggerFactory.getLogger(WeatherDataParserImpl.class);
