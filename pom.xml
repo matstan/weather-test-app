@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.weather.test.app</groupId>
@@ -8,6 +9,23 @@
     <packaging>pom</packaging>
     <name>Weather test app</name>
     <description>Test app for learning GAE basics</description>
+
+    <properties>
+        <jersey.version>2.19</jersey.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.glassfish.jersey</groupId>
+                <artifactId>jersey-bom</artifactId>
+                <version>${jersey.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
     <dependencies>
         <!-- logging -->
@@ -91,6 +109,6 @@
         <module>weather-test-gae</module>
         <module>weather-test-dm</module>
         <module>weather-test-hk2</module>
-    <module>weather-test-rest-webapp</module>
-  </modules>
+        <module>weather-test-rest-webapp</module>
+    </modules>
 </project>

@@ -1,4 +1,4 @@
-package com.weather.test.app.gae;
+package com.weather.test.app.gae.servlet;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
