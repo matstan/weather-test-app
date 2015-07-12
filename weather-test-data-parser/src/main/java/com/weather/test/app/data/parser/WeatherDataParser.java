@@ -14,6 +14,5 @@ import java.util.List;
  */
 @Contract
 public interface WeatherDataParser {
-
     List<WeatherReadingDto> parseData(InputStream inputStream) throws IOException, ParserConfigurationException, SAXException;
 }
