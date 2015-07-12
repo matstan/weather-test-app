@@ -3,6 +3,7 @@ package com.weather.test.app.gae;
 import com.weather.test.app.data.parser.WeatherDataParser;
 import com.weather.test.app.data.parser.WeatherDataParserImpl;
 import com.weather.test.app.dm.WeatherReadingDto;
+import org.glassfish.hk2.api.ServiceLocator;
 import org.xml.sax.SAXException;
 
 import javax.servlet.http.HttpServlet;
@@ -21,7 +22,10 @@ public class ParsingServlet extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        WeatherDataParser weatherDataParser = new WeatherDataParserImpl();
+        ServiceLocator serviceLocator = (ServiceLocator) getServletContext().getAttribute(Hk2EnablementContextListener.HK2_SERVICE_LOCATOR_ATTR_NAME);
+
+        WeatherDataParser weatherDataParser = serviceLocator.getService(WeatherDataParser.class);
+
         List<WeatherReadingDto> weatherReadingDtoList = null;
         resp.setContentType("text/plain");
 

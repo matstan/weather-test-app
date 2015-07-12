@@ -14,10 +14,6 @@
     <name>weather-test-hk2</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <dependency>
-            <groupId>org.glassfish.hk2</groupId>
-            <artifactId>hk2</artifactId>
-            <version>2.3.0</version>
-        </dependency>
+
     </dependencies>
 </project>
