@@ -1,4 +1,4 @@
-package com.weather.test.app.rest;
+package com.weather.test.app.rest -DarchetypeVersion=2.9;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
