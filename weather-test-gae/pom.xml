@@ -45,6 +45,13 @@
             <version>1.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.weather.test.app</groupId>
+            <artifactId>weather-test-data-parser</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
         <!-- Test Dependencies -->
         <dependency>
             <groupId>com.google.appengine</groupId>
