@@ -5,6 +5,7 @@ import com.weather.test.app.data.parser.WeatherDataParserImpl;
 import com.weather.test.app.dm.WeatherReadingDto;
 import org.xml.sax.SAXException;
 
+import javax.inject.Inject;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,9 +20,12 @@ import java.util.List;
  */
 public class ParsingServlet extends HttpServlet {
 
+    @Inject
+    WeatherDataParser weatherDataParser;
+
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        WeatherDataParser weatherDataParser = new WeatherDataParserImpl();
+        //WeatherDataParser weatherDataParser = new WeatherDataParserImpl();
         List<WeatherReadingDto> weatherReadingDtoList = null;
         resp.setContentType("text/plain");
 
