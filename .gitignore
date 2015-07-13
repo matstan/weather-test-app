@@ -12,3 +12,7 @@
 hs_err_pid*
 
 target
+
+# Intellij project files
+.idea
+*.iml
