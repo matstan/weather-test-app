@@ -1,4 +1,4 @@
-package com.weather.test.app.gae;
+package com.weather.test.app.gae.servlet;
 
 import org.glassfish.hk2.api.ServiceLocator;
 import org.glassfish.hk2.utilities.ServiceLocatorUtilities;

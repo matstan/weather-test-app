@@ -1,4 +1,4 @@
-package com.weather.test.app.gae;
+package com.weather.test.app.gae.servlet;
 
 import com.weather.test.app.data.parser.WeatherDataParser;
 import com.weather.test.app.data.parser.WeatherDataParserImpl;
