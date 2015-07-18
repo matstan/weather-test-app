@@ -31,10 +31,10 @@ public class WeatherReadingResource {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String parseNewWeatherData() throws IOException, ParserConfigurationException, SAXException {
-        InputStream onlineInputStream = new URL(WeatherDataParserImpl.WEATHER_DATA_XML_URL).openStream();
+        InputStream weatherDataInputStream = this.getClass().getClassLoader().getResourceAsStream("meteo.si.xml");
 
         StringBuilder result = new StringBuilder();
-        List<WeatherReadingDto> weatherReadingDtoList = weatherDataParser.parseData(onlineInputStream);
+        List<WeatherReadingDto> weatherReadingDtoList = weatherDataParser.parseData(weatherDataInputStream);
         for (WeatherReadingDto weatherReadingDto : weatherReadingDtoList) {
             result.append(weatherReadingDto.toString() + "<br>");
         }

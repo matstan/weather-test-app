@@ -2,6 +2,7 @@ package com.weather.test.app.data.parser;
 
 import com.weather.test.app.dm.WeatherReadingDto;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -43,6 +44,7 @@ public class WeatherDataParserHk2IntegrationTest extends HK2Runner {
         Assert.assertEquals(weatherReadingDto.getHumidity(), 41.0, 0);
     }
 
+    @Ignore
     @Test
     public void parseOnlineData() throws IOException, ParserConfigurationException, SAXException {
         InputStream onlineInputStream = new URL(WeatherDataParserImpl.WEATHER_DATA_XML_URL).openStream();
