@@ -1,9 +1,7 @@
 package com.weather.test.app.gae.rest;
 
-import com.googlecode.objectify.ObjectifyService;
 import com.weather.test.app.data.parser.WeatherDataParser;
-import com.weather.test.app.data.parser.WeatherDataParserImpl;
-import com.weather.test.app.data.storage.WeatherReadingDao;
+import com.weather.test.app.data.storage.dao.WeatherReadingDao;
 import com.weather.test.app.dm.WeatherReadingDto;
 import org.xml.sax.SAXException;
 
@@ -15,7 +13,6 @@ import javax.ws.rs.core.MediaType;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 import java.util.List;
 
 @Path("weatherReadingParser")

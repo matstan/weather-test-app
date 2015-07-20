@@ -1,4 +1,4 @@
-package com.weather.test.app.data.storage;
+package com.weather.test.app.data.storage.dao;
 
 import com.googlecode.objectify.ObjectifyService;
 import com.weather.test.app.dm.WeatherReadingDto;
@@ -20,13 +20,11 @@ public class WeatherReadingDaoOfyImpl implements WeatherReadingDao {
     }
 
     public List<WeatherReadingDto> getWeatherReadingList() {
-         //return ObjectifyService.ofy().load().type(WeatherReadingDto.class).list();
-        return null;
+        return ObjectifyService.ofy().load().type(WeatherReadingDto.class).list();
     }
 
     public List<WeatherReadingDto> getWeatherReadingList(String domainTitle, Date updatedAfter) {
-        //List<WeatherReadingDto> weatherReadingDtoList = ObjectifyService.ofy().load().type(WeatherReadingDto.class).filter("domainTitle ==", domainTitle).list();
-        return null;
+        return ObjectifyService.ofy().load().type(WeatherReadingDto.class).filter("domainTitle ==", domainTitle).list();
     }
 
 

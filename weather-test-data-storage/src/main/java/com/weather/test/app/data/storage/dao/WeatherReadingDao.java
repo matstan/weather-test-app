@@ -1,4 +1,4 @@
-package com.weather.test.app.data.storage;
+package com.weather.test.app.data.storage.dao;
 
 import com.weather.test.app.dm.WeatherReadingDto;
 import org.jvnet.hk2.annotations.Contract;

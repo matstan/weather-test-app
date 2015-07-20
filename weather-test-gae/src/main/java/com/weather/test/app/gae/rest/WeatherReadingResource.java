@@ -1,6 +1,6 @@
 package com.weather.test.app.gae.rest;
 
-import com.weather.test.app.data.storage.WeatherReadingDao;
+import com.weather.test.app.data.storage.dao.WeatherReadingDao;
 import com.weather.test.app.dm.WeatherReadingDto;
 
 import javax.inject.Inject;
