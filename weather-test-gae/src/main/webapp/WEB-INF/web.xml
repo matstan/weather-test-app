@@ -57,6 +57,6 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
     <listener>
-        <listener-class>com.weather.test.app.gae.datastore.objectify.OfyHelper</listener-class>
+        <listener-class>com.weather.test.app.gae.objectify.OfyHelper</listener-class>
     </listener>
 </web-app>

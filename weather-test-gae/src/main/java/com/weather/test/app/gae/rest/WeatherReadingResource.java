@@ -26,16 +26,18 @@ public class WeatherReadingResource {
     @Path("/query")
     @Produces(MediaType.TEXT_HTML)
     public String getWeatherReadingList(@QueryParam("updatedAfter") String updatedAfterParam, @QueryParam("domainTitle") String domainTitle) {
-//        Date updatedAfter = null;
-//        try {
-//            if (updatedAfterParam != null) {
-//                updatedAfter = dateFormat.parse(updatedAfterParam);
-//            }
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-//
-//        String u = updatedAfter != null ? updatedAfter.toString() : "emptyDate";
+        // because implicit conversion of QuearyParam Date is cumbersome in terms of prescribing Date format,
+        // it is more convenient to parse date from a String
+        Date updatedAfter = null;
+        try {
+            if (updatedAfterParam != null) {
+                updatedAfter = dateFormat.parse(updatedAfterParam);
+            }
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        String u = updatedAfter != null ? updatedAfter.toString() : "emptyDate";
 
         //return "updatedAfter: " + u + " domainTitile: " + domainTitle;
 

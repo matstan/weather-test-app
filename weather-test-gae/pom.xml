@@ -14,14 +14,6 @@
     <groupId>com.weather.test.app</groupId>
     <artifactId>weather-test-gae</artifactId>
 
-    <properties>
-        <app.id>weather-test-gae-app</app.id>
-        <app.version>1</app.version>
-        <appengine.version>1.9.23</appengine.version>
-        <gcloud.plugin.version>0.9.58.v20150505</gcloud.plugin.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <prerequisites>
         <maven>3.1.0</maven>
     </prerequisites>
@@ -63,19 +55,6 @@
         </dependency>
 
 
-        <!-- Test Dependencies -->
-        <dependency>
-            <groupId>com.google.appengine</groupId>
-            <artifactId>appengine-testing</artifactId>
-            <version>${appengine.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.appengine</groupId>
-            <artifactId>appengine-api-stubs</artifactId>
-            <version>${appengine.version}</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
