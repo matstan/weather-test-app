@@ -1,43 +1,47 @@
 package com.weather.test.app.gae.rest;
 
-import com.weather.test.app.data.parser.WeatherDataParser;
-import com.weather.test.app.data.parser.WeatherDataParserImpl;
+import com.weather.test.app.data.storage.WeatherReadingDao;
 import com.weather.test.app.dm.WeatherReadingDto;
-import org.xml.sax.SAXException;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
-@Path("weatherReadings")
+@Path("weatherReadingResource")
 public class WeatherReadingResource {
 
     @Inject
-    WeatherDataParser weatherDataParser;
+    WeatherReadingDao weatherReadingDao;
 
-    /**
-     * Method handling HTTP GET requests. The returned object will be sent
-     * to the client as "text/html" media type.
-     *
-     * @return String that will be returned as a text/html response.
-     */
+    private SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+
     @GET
+    @Path("/query")
     @Produces(MediaType.TEXT_HTML)
-    public String parseNewWeatherData() throws IOException, ParserConfigurationException, SAXException {
-        InputStream weatherDataInputStream = this.getClass().getClassLoader().getResourceAsStream("meteo.si.xml");
+    public String getWeatherReadingList(@QueryParam("updatedAfter") String updatedAfterParam, @QueryParam("domainTitle") String domainTitle) {
+//        Date updatedAfter = null;
+//        try {
+//            if (updatedAfterParam != null) {
+//                updatedAfter = dateFormat.parse(updatedAfterParam);
+//            }
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//
+//        String u = updatedAfter != null ? updatedAfter.toString() : "emptyDate";
 
-        StringBuilder result = new StringBuilder();
-        List<WeatherReadingDto> weatherReadingDtoList = weatherDataParser.parseData(weatherDataInputStream);
-        for (WeatherReadingDto weatherReadingDto : weatherReadingDtoList) {
-            result.append(weatherReadingDto.toString() + "<br>");
-        }
-        return result.toString();
+        //return "updatedAfter: " + u + " domainTitile: " + domainTitle;
+
+        List<WeatherReadingDto> weatherReadingList = weatherReadingDao.getWeatherReadingList();
+        return WeatherReadingParser.convertWeatherReadingDtoList2String(weatherReadingList);
+
+        //return WeatherReadingParser.convertWeatherReadingDtoList2String(weatherReadingDtoList);
     }
 }

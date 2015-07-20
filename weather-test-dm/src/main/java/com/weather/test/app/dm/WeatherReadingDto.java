@@ -1,20 +1,25 @@
 package com.weather.test.app.dm;
 
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
+
 import java.util.Date;
 
 /**
  * Created by matic on 08/07/15.
  */
+@Entity
 public class WeatherReadingDto {
+
+    @Id
+    Long weatherReadingId;
 
     private String meteoId;
     private String domainTitle;
-
     private Date updated;
     private double temp;
     private double humidity;
     private double pressure;
-
 
     public String getMeteoId() {
         return meteoId;
@@ -66,6 +71,6 @@ public class WeatherReadingDto {
 
     @Override
     public String toString() {
-        return "meteoId: " + meteoId + " domainTitle: " + domainTitle + " updated: " + updated + " temp: " + temp + " pressure: " + pressure + " humidity: " + humidity;
+        return "objectifyId: " + weatherReadingId + " meteoId: " + meteoId + " domainTitle: " + domainTitle + " updated: " + updated + " temp: " + temp + " pressure: " + pressure + " humidity: " + humidity;
     }
 }
