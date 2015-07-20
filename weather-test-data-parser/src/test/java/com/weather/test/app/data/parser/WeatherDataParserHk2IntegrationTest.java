@@ -18,9 +18,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-/**
- * Created by matic on 06/07/15.
- */
 @RunWith(JUnit4.class)
 public class WeatherDataParserHk2IntegrationTest extends HK2Runner {
 

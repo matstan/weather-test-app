@@ -9,9 +9,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-/**
- * Created by matic on 08/07/15.
- */
 @Contract
 public interface WeatherDataParser {
     List<WeatherReadingDto> parseData(InputStream inputStream) throws IOException, ParserConfigurationException, SAXException;
