@@ -3,6 +3,7 @@ package com.weather.test.app.data.storage;
 import com.weather.test.app.dm.WeatherReadingDto;
 import org.jvnet.hk2.annotations.Contract;
 
+import java.util.Date;
 import java.util.List;
 
 @Contract
@@ -14,6 +15,6 @@ public interface WeatherReadingDao {
 
     List<WeatherReadingDto> getWeatherReadingList();
 
-    //void getWeatherReadingList(String a);
+    List<WeatherReadingDto> getWeatherReadingList(String domainTitle, Date updatedAfter);
 
 }
