@@ -53,6 +53,15 @@ public class WeatherReadingParser {
         return convertWeatherReadingDtoList2String(weatherReadingDtoList);
     }
 
+    @GET
+    @Path("/delete")
+    @Produces(MediaType.TEXT_HTML)
+    public String deleteWeatherData() throws IOException, ParserConfigurationException, SAXException {
+        weatherReadingDao.deleteAllWeatherReading();
+
+        return "Successfully deleted all weather readings.";
+    }
+
     public static String convertWeatherReadingDtoList2String(List<WeatherReadingDto> weatherReadingDtoList) {
         StringBuilder result = new StringBuilder();
         for (WeatherReadingDto weatherReadingDto : weatherReadingDtoList) {

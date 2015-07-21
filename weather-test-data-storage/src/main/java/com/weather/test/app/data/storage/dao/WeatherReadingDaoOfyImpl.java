@@ -1,5 +1,6 @@
 package com.weather.test.app.data.storage.dao;
 
+import com.googlecode.objectify.Key;
 import com.googlecode.objectify.ObjectifyService;
 import com.weather.test.app.dm.dto.WeatherReadingDto;
 import org.jvnet.hk2.annotations.Service;
@@ -24,7 +25,7 @@ public class WeatherReadingDaoOfyImpl implements WeatherReadingDao {
 
     public List<WeatherReadingDto> getWeatherReadingList(String domainTitle) {
         return ObjectifyService.ofy().load().type(WeatherReadingDto.class)
-                                .filter("domainTitle ==", domainTitle).list();
+                                .filter("domainTitle", domainTitle).list();
     }
 
     public List<WeatherReadingDto> getWeatherReadingList(Date updatedFrom, Date updatedTo) {
@@ -42,5 +43,12 @@ public class WeatherReadingDaoOfyImpl implements WeatherReadingDao {
                                 .list();
     }
 
+    public void deleteWeatherReadingList(List<WeatherReadingDto> weatherReadingDtoList) {
+        ObjectifyService.ofy().delete().entities(weatherReadingDtoList).now();
+    }
 
+    public void deleteAllWeatherReading() {
+        List<Key<WeatherReadingDto>> keys = ObjectifyService.ofy().load().type(WeatherReadingDto.class).keys().list();
+        ObjectifyService.ofy().delete().keys(keys).now();
+    }
 }

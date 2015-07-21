@@ -22,15 +22,36 @@ public class WeatherReadingResource {
     @GET
     @Path("/query")
     @Produces(MediaType.TEXT_HTML)
-    public String getWeatherReadingList(@QueryParam("updatedFrom") String updatedFrom, @QueryParam("updatedTo") String updatedTo, @QueryParam("domainTitle") String domainTitle) {
+    public String getWeatherReadingListByQuery(@QueryParam("updatedFrom") String updatedFrom, @QueryParam("updatedTo") String updatedTo, @QueryParam("domainTitle") String domainTitle) {
         Date updatedFromDate = DateParsingUtils.parseDateFromString(updatedFrom);
         Date updatedToDate = DateParsingUtils.parseDateFromString(updatedTo);
 
-        if (updatedFromDate == null || updatedToDate == null || domainTitle == null) {
-            return "Please provide all input parameters.";
+        String result = "updatedFrom: " + updatedFrom + " updatedTo: " + updatedTo + " domainTitle: " + domainTitle + "<br>";
+
+        if (updatedFromDate != null && updatedToDate != null && domainTitle != null) {
+            List<WeatherReadingDto> weatherReadingList = weatherReadingDao.getWeatherReadingList(domainTitle, updatedFromDate, updatedToDate);
+            result += WeatherReadingParser.convertWeatherReadingDtoList2String(weatherReadingList);
+        } else if (updatedFromDate == null && updatedToDate == null && domainTitle != null) {
+            List<WeatherReadingDto> weatherReadingList = weatherReadingDao.getWeatherReadingList(domainTitle);
+            result += WeatherReadingParser.convertWeatherReadingDtoList2String(weatherReadingList);
+        } else if (updatedFromDate != null && updatedToDate != null && domainTitle == null) {
+            List<WeatherReadingDto> weatherReadingList = weatherReadingDao.getWeatherReadingList(updatedFromDate, updatedToDate);
+            result += WeatherReadingParser.convertWeatherReadingDtoList2String(weatherReadingList);
+        } else if (updatedFromDate == null && updatedToDate == null && domainTitle == null) {
+            List<WeatherReadingDto> weatherReadingList = weatherReadingDao.getWeatherReadingList();
+            result += WeatherReadingParser.convertWeatherReadingDtoList2String(weatherReadingList);
+        }else {
+            result += "Please provide consistent input parameters.";
         }
 
-        List<WeatherReadingDto> weatherReadingList = weatherReadingDao.getWeatherReadingList(domainTitle, updatedFromDate, updatedToDate);
+        return result;
+    }
+
+    @GET
+    @Path("/all")
+    @Produces(MediaType.TEXT_HTML)
+    public String getWeatherReadingList() {
+        List<WeatherReadingDto> weatherReadingList = weatherReadingDao.getWeatherReadingList();
         return WeatherReadingParser.convertWeatherReadingDtoList2String(weatherReadingList);
     }
 }

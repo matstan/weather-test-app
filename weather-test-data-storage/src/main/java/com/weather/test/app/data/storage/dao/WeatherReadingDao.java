@@ -20,4 +20,8 @@ public interface WeatherReadingDao {
     List<WeatherReadingDto> getWeatherReadingList(Date updatedFrom, Date updatedTo);
 
     List<WeatherReadingDto> getWeatherReadingList(String domainTitle, Date updatedFrom, Date updatedTo);
+
+    void deleteWeatherReadingList(List<WeatherReadingDto> weatherReadingDtoList);
+
+    void deleteAllWeatherReading();
 }
