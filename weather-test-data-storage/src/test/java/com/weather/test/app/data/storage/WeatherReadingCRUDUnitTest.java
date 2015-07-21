@@ -61,17 +61,17 @@ public class WeatherReadingCRUDUnitTest extends BaseUnitTest {
     }
 
     @Test
-    public void testGetAllEntitiesByType() throws ParseException {
+    public void getAllEntitiesByType() throws ParseException {
         // expected dataset, inserted into datastore
         List<WeatherReadingDto> expectedDataset = createWeatherReadingDtoDataset();
 
         // first save generated data
-        ObjectifyService.ofy().save().entities(expectedDataset);
+        saveAllEntities(expectedDataset);
 
         // obtain generated data
-        List<Class<WeatherReadingDto>> weatherReadingDtoList = getAllEntitiesByType(WeatherReadingDto.class);
+        List<WeatherReadingDto> weatherReadingDtoList = getAllEntitiesByType(WeatherReadingDto.class);
 
         // check for equality of lists
-        //checkContentsOfDtoList(expectedDataset, weatherReadingDtoList);
+        checkContentsOfDtoList(expectedDataset, weatherReadingDtoList);
     }
 }

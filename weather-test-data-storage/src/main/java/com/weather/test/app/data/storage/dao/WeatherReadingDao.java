@@ -15,6 +15,9 @@ public interface WeatherReadingDao {
 
     List<WeatherReadingDto> getWeatherReadingList();
 
-    List<WeatherReadingDto> getWeatherReadingList(String domainTitle, Date updatedAfter);
+    List<WeatherReadingDto> getWeatherReadingList(String domainTitle);
 
+    List<WeatherReadingDto> getWeatherReadingList(Date updatedFrom, Date updatedTo);
+
+    List<WeatherReadingDto> getWeatherReadingList(String domainTitle, Date updatedFrom, Date updatedTo);
 }

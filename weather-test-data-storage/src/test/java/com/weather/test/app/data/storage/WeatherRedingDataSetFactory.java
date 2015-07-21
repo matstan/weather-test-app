@@ -24,6 +24,21 @@ public class WeatherRedingDataSetFactory {
 
         return dataSet;
     }
+
+    /**
+     * Returns an element from weatherReadingDtoList, which has the domain title the same as domainTitle.
+     * @param domainTitle
+     * @param weatherReadingDtoList
+     * @return
+     */
+    public static WeatherReadingDto getWeatherReadingByDomainTitle(String domainTitle, List<WeatherReadingDto> weatherReadingDtoList) {
+        for (WeatherReadingDto weatherReadingDto : weatherReadingDtoList) {
+            if (weatherReadingDto.getDomainTitle().equalsIgnoreCase(domainTitle)) {
+                return weatherReadingDto;
+            }
+        }
+        return null;
+    }
     public static WeatherReadingDto createWeatherReadingDto(Date dateUpdated, String domainTitle) {
         WeatherReadingDto weatherReadingDto = new WeatherReadingDto();
         weatherReadingDto.setDomainTitle(domainTitle);

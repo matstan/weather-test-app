@@ -2,6 +2,7 @@ package com.weather.test.app.dm;
 
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
+import com.googlecode.objectify.annotation.Index;
 
 import java.util.Date;
 
@@ -15,7 +16,11 @@ public class WeatherReadingDto {
     Long weatherReadingId;
 
     private String meteoId;
+
+    @Index
     private String domainTitle;
+
+    @Index
     private Date updated;
     private double temp;
     private double humidity;

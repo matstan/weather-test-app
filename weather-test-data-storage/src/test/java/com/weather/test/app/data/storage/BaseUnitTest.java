@@ -15,6 +15,7 @@ import org.jvnet.hk2.testing.junit.HK2Runner;
 import java.io.Closeable;
 import java.io.IOException;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 import static com.weather.test.app.data.storage.WeatherRedingDataSetFactory.createWeatherReadingDtoDataset;
@@ -23,6 +24,8 @@ import static com.weather.test.app.data.storage.WeatherRedingDataSetFactory.crea
  * Enables unit testing for Datastore operations.
  */
 public class BaseUnitTest extends HK2Runner {
+
+    protected static SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
 
     private final LocalServiceTestHelper helper = new LocalServiceTestHelper(new LocalDatastoreServiceTestConfig());
     // New Objectify 5.1 Way. See https://groups.google.com/forum/#!topic/objectify-appengine/O4FHC_i7EGk
@@ -54,17 +57,26 @@ public class BaseUnitTest extends HK2Runner {
     }
 
     /**
-     * Returns all entities from Datastore according to given type.
+     * Returns all entities of type entityType from Datastore.
      *
      * @param entityType
      * @param <T>
      * @return
      */
-    public static <T> List<T> getAllEntitiesByType(T entityType) {
-        // obtain generated data
-        List<?> list = ObjectifyService.ofy().load().type(entityType.getClass()).list();
+    public static <T> List<T> getAllEntitiesByType(Class<T> entityType) {
+        List<T> entityList = ObjectifyService.ofy().load().type(entityType).list();
 
         return entityList;
+    }
+
+    /**
+     * Saves entity list to datastore.
+     *
+     * @param entityList
+     * @param <T>
+     */
+    public static <T> void saveAllEntities(List<T> entityList) {
+        ObjectifyService.ofy().save().entities(entityList).now();
     }
 
     /**
