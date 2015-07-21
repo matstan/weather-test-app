@@ -1,8 +1,8 @@
 package com.weather.test.app.data.storage.dao;
 
-import com.weather.test.app.data.storage.BaseUnitTest;
 import com.weather.test.app.data.storage.WeatherRedingDataSetFactory;
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
+import com.weather.test.app.testing.BaseUnitTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;

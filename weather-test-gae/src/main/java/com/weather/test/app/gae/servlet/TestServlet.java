@@ -18,9 +18,9 @@ public class TestServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException {
-        if (req.getParameter("testing") == null) {
+        if (req.getParameter("test") == null) {
             resp.setContentType("text/plain");
-            resp.getWriter().println("Hello, this is a testing servlet. \n\n");
+            resp.getWriter().println("Hello, this is a test servlet. \n\n");
             Properties p = System.getProperties();
             p.list(resp.getWriter());
 

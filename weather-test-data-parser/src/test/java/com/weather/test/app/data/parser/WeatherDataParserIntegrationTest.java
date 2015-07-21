@@ -1,6 +1,7 @@
 package com.weather.test.app.data.parser;
 
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
+import com.weather.test.app.testing.BaseUnitTest;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -21,13 +22,13 @@ import java.util.List;
  */
 
 @RunWith(JUnit4.class)
-public class WeatherDataParserIntegrationTest {
+public class WeatherDataParserIntegrationTest extends BaseUnitTest {
 
     private WeatherDataParser weatherDataParser = new WeatherDataParserImpl();
 
     @Test
     public void parseFile() throws ParserConfigurationException, SAXException, IOException, ParseException {
-        InputStream testXmlFileInputStream = this.getClass().getClassLoader().getResourceAsStream("meteo.si.xml");
+        InputStream testXmlFileInputStream = WeatherDataParserHk2IntegrationTest.class.getClassLoader().getResourceAsStream("meteo.si.xml");
 
         List<WeatherReadingDto> weatherReadingDtos = weatherDataParser.parseData(testXmlFileInputStream);
         Assert.assertNotNull(weatherReadingDtos);

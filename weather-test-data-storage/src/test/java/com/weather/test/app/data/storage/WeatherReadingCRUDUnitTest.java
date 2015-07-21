@@ -2,8 +2,8 @@ package com.weather.test.app.data.storage;
 
 import com.google.appengine.api.datastore.*;
 import com.googlecode.objectify.ObjectifyService;
-import com.weather.test.app.dm.WeatherReadingDto;
-import org.junit.Assert;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
+import com.weather.test.app.testing.BaseUnitTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -18,6 +18,22 @@ import static com.weather.test.app.data.storage.WeatherRedingDataSetFactory.crea
 
 @RunWith(MockitoJUnitRunner.class)
 public class WeatherReadingCRUDUnitTest extends BaseUnitTest {
+
+    @Test
+    public void insertDataOverObjectify() throws ParseException {
+        // expected dataset, inserted into datastore
+        List<WeatherReadingDto> expectedDataset = createWeatherReadingDtoDataset();
+
+        // first save generated data
+        ObjectifyService.ofy().save().entities(expectedDataset).now();
+
+        // obtain saved data
+        List<WeatherReadingDto> weatherReadingDtoList = ObjectifyService.ofy().load().type(WeatherReadingDto.class).list();
+
+        // check for equality of lists
+        checkContentsOfDtoList(expectedDataset, weatherReadingDtoList);
+    }
+
 
     @Test
     public void insertDataOverDatastoreService() throws ParseException {
@@ -46,21 +62,6 @@ public class WeatherReadingCRUDUnitTest extends BaseUnitTest {
     }
 
     @Test
-    public void insertDataOverObjectify() throws ParseException {
-        // expected dataset, inserted into datastore
-        List<WeatherReadingDto> expectedDataset = createWeatherReadingDtoDataset();
-
-        // first save generated data
-        ObjectifyService.ofy().save().entities(expectedDataset);
-
-        // obtain generated data
-        List<WeatherReadingDto> weatherReadingDtoList = ObjectifyService.ofy().load().type(WeatherReadingDto.class).list();
-
-        // check for equality of lists
-        checkContentsOfDtoList(expectedDataset, weatherReadingDtoList);
-    }
-
-    @Test
     public void getAllEntitiesByType() throws ParseException {
         // expected dataset, inserted into datastore
         List<WeatherReadingDto> expectedDataset = createWeatherReadingDtoDataset();
@@ -68,7 +69,7 @@ public class WeatherReadingCRUDUnitTest extends BaseUnitTest {
         // first save generated data
         saveAllEntities(expectedDataset);
 
-        // obtain generated data
+        // obtain saved data
         List<WeatherReadingDto> weatherReadingDtoList = getAllEntitiesByType(WeatherReadingDto.class);
 
         // check for equality of lists

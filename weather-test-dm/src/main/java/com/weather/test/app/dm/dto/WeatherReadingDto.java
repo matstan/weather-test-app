@@ -1,4 +1,4 @@
-package com.weather.test.app.dm;
+package com.weather.test.app.dm.dto;
 
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
@@ -6,9 +6,6 @@ import com.googlecode.objectify.annotation.Index;
 
 import java.util.Date;
 
-/**
- * Created by matic on 08/07/15.
- */
 @Entity
 public class WeatherReadingDto {
 

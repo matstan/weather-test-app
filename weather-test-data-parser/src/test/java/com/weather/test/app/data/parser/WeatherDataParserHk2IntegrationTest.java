@@ -1,12 +1,12 @@
 package com.weather.test.app.data.parser;
 
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
+import com.weather.test.app.testing.BaseUnitTest;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import org.jvnet.hk2.testing.junit.HK2Runner;
 import org.xml.sax.SAXException;
 
 import javax.inject.Inject;
@@ -19,14 +19,15 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 @RunWith(JUnit4.class)
-public class WeatherDataParserHk2IntegrationTest extends HK2Runner {
+public class WeatherDataParserHk2IntegrationTest extends BaseUnitTest {
 
     @Inject
     private WeatherDataParser weatherDataParser;
 
     @Test
-    public void parseFile() throws ParserConfigurationException, SAXException, IOException, ParseException {
-        InputStream testXmlFileInputStream = this.getClass().getClassLoader().getResourceAsStream("meteo.si.xml");
+    public void parseData_parseFile() throws ParserConfigurationException, SAXException, IOException, ParseException {
+
+        InputStream testXmlFileInputStream = WeatherDataParserHk2IntegrationTest.class.getClassLoader().getResourceAsStream("meteo.si.xml");
 
         List<WeatherReadingDto> weatherReadingDtos = weatherDataParser.parseData(testXmlFileInputStream);
         Assert.assertNotNull(weatherReadingDtos);
@@ -43,7 +44,7 @@ public class WeatherDataParserHk2IntegrationTest extends HK2Runner {
 
     @Ignore
     @Test
-    public void parseOnlineData() throws IOException, ParserConfigurationException, SAXException {
+    public void parseData_parseOnlineData() throws IOException, ParserConfigurationException, SAXException {
         InputStream onlineInputStream = new URL(WeatherDataParserImpl.WEATHER_DATA_XML_URL).openStream();
 
         List<WeatherReadingDto> weatherReadingDtos = weatherDataParser.parseData(onlineInputStream);

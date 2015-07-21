@@ -2,7 +2,7 @@ package com.weather.test.app.gae.rest;
 
 import com.weather.test.app.data.parser.WeatherDataParser;
 import com.weather.test.app.data.storage.dao.WeatherReadingDao;
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
 import org.xml.sax.SAXException;
 
 import javax.inject.Inject;

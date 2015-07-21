@@ -17,7 +17,7 @@
 package com.weather.test.app.gae.objectify;
 
 import com.googlecode.objectify.ObjectifyService;
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

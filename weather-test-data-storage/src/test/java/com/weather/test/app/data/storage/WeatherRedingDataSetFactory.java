@@ -1,7 +1,7 @@
 package com.weather.test.app.data.storage;
 
 import com.google.appengine.api.datastore.Entity;
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Provides methods for dataset creation for testing purposes.
+ * Provides methods for dataset creation for test purposes.
  */
 public class WeatherRedingDataSetFactory {
 

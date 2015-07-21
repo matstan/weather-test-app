@@ -1,7 +1,7 @@
 package com.weather.test.app.data.storage.dao;
 
 import com.googlecode.objectify.ObjectifyService;
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
 import org.jvnet.hk2.annotations.Service;
 
 import java.util.Date;
@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class WeatherReadingDaoOfyImpl implements WeatherReadingDao {
-
 
     public void saveWeatherReadingList(List<WeatherReadingDto> weatherReadingDtoList) {
         ObjectifyService.ofy().save().entities(weatherReadingDtoList).now();

@@ -1,11 +1,11 @@
-package com.weather.test.app.data.storage;
+package com.weather.test.app.testing;
 
 import com.google.appengine.tools.development.testing.LocalDatastoreServiceTestConfig;
 import com.google.appengine.tools.development.testing.LocalServiceTestHelper;
 import com.googlecode.objectify.ObjectifyFactory;
 import com.googlecode.objectify.ObjectifyService;
 import com.googlecode.objectify.cache.AsyncCacheFilter;
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -18,10 +18,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-import static com.weather.test.app.data.storage.WeatherRedingDataSetFactory.createWeatherReadingDtoDataset;
-
 /**
- * Enables unit testing for Datastore operations.
+ * Enables unit test for Datastore operations.
  */
 public class BaseUnitTest extends HK2Runner {
 

@@ -1,6 +1,6 @@
 package com.weather.test.app.data.storage.dao;
 
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
 import org.jvnet.hk2.annotations.Contract;
 
 import java.util.Date;

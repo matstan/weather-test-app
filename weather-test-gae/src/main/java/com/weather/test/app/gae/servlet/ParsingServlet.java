@@ -2,7 +2,7 @@ package com.weather.test.app.gae.servlet;
 
 import com.weather.test.app.data.parser.WeatherDataParser;
 import com.weather.test.app.data.parser.WeatherDataParserImpl;
-import com.weather.test.app.dm.WeatherReadingDto;
+import com.weather.test.app.dm.dto.WeatherReadingDto;
 import org.glassfish.hk2.api.ServiceLocator;
 import org.xml.sax.SAXException;
 

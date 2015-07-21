@@ -12,9 +12,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by matic on 08/07/15.
- */
 @RunWith(JUnit4.class)
 public class DateParsingUnitTest {
 
