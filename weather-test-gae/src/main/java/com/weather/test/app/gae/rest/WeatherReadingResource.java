@@ -26,6 +26,12 @@ public class WeatherReadingResource {
         Date updatedFromDate = DateParsingUtils.parseDateFromString(updatedFrom);
         Date updatedToDate = DateParsingUtils.parseDateFromString(updatedTo);
 
+        // if data is sent from html form, domainTitle may be empty, but never null,
+        // therefore set it to null if it is empty for further checking to succeed
+        if (domainTitle != null) {
+            domainTitle = domainTitle.isEmpty() ? null : domainTitle;
+        }
+
         String result = "updatedFrom: " + updatedFrom + " updatedTo: " + updatedTo + " domainTitle: " + domainTitle + "<br>";
 
         if (updatedFromDate != null && updatedToDate != null && domainTitle != null) {

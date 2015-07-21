@@ -11,11 +11,11 @@ import java.util.Date;
 
 public class DateParsingUtilsUnitTest extends BaseUnitTest {
 
-    private SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+    private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     @Test
     public void parseDateFromString_validDate() {
-        String dateString = "01.01.2011";
+        String dateString = "2011-01-01";
         Date date = DateParsingUtils.parseDateFromString(dateString);
 
         String format = dateFormat.format(date);

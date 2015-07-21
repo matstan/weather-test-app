@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<h1>Parsing new weather data</h1>
+<p><a href="rest/weatherReadingParser/parse/static">Parse and show static weather data</a></p>
+<p><a href="rest/weatherReadingParser/parse/online">Parse and show online weather data</a></p>
+
+<h1>Creating new weather data</h1>
+<p><a href="rest/weatherReadingParser/create/static">Create and save static weather data</a></p>
+<p><a href="rest/weatherReadingParser/create/online">Create and save online weather data</a></p>
+
+<h1>Delete weather data</h1>
+<p><a href="rest/weatherReadingParser/delete">Delete weather data</a></p>
+
+<h1>Show all persisted weather data</h1>
+<p><a href="rest/weatherReadingResource/all">Show all persisted weather data</a></p>
+
+<h1>Retrieve persisted weather data</h1>
+<form action="/rest/weatherReadingResource/query" method="GET">
+    <label>Domain title: </label><input type="text" name="domainTitle">
+    <label>Updated between: </label><input type="date" name="updatedFrom"> and  </label><input type="date" name="updatedTo">
+    <button type="submit">OK</button>
+</form>
+
+</body>
+</html>
