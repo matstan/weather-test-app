@@ -30,6 +30,10 @@
         <servlet-name>parsingServlet</servlet-name>
         <servlet-class>com.weather.test.app.gae.servlet.ParsingServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>weatherReadingQueueServlet</servlet-name>
+        <servlet-class>com.weather.test.app.gae.queue.WeatherReadingQueueServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>Jersey Web Application</servlet-name>
@@ -46,6 +50,10 @@
     <servlet-mapping>
         <servlet-name>parsingServlet</servlet-name>
         <url-pattern>/parsingServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>weatherReadingQueueServlet</servlet-name>
+        <url-pattern>/weatherReadingQueueServlet</url-pattern>
     </servlet-mapping>
 
     <filter>
