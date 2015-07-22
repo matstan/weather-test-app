@@ -35,7 +35,7 @@
         <servlet-class>com.weather.test.app.gae.queue.CreateWeatherReadingsQueueServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>deleteWeatherReadingQueueServlet</servlet-name>
+        <servlet-name>deleteWeatherReadingsQueueServlet</servlet-name>
         <servlet-class>com.weather.test.app.gae.queue.DeleteWeatherReadingsQueueServlet</servlet-class>
     </servlet>
 

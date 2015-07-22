@@ -10,12 +10,19 @@
 <p><a href="rest/weatherReadingParser/parse/static">Parse and show static weather data</a></p>
 <p><a href="rest/weatherReadingParser/parse/online">Parse and show online weather data</a></p>
 
-<h1>Creating new weather data</h1>
-<p><a href="rest/weatherReadingParser/create/static">Create and save static weather data</a></p>
-<p><a href="rest/weatherReadingParser/create/online">Create and save online weather data</a></p>
+<h1>Persist new weather data via REST service</h1>
+<p><a href="rest/weatherReadingParser/create/static">Persist static weather data</a></p>
+<p><a href="rest/weatherReadingParser/create/online">Persist online weather data</a></p>
+
+<h1>Persist new weather data via task queue</h1>
+<p><a href="rest/weatherReadingEnqueuer/create/static">Persist static weather data via task queue</a></p>
+<p><a href="rest/weatherReadingEnqueuer/create/online">Persist online weather data via task queue</a></p>
 
 <h1>Delete weather data</h1>
 <p><a href="rest/weatherReadingParser/delete">Delete weather data</a></p>
+
+<h1>Delete weather data via task queue</h1>
+<p><a href="rest/weatherReadingEnqueuer/delete">Delete weather data via task queue</a></p>
 
 <h1>Show all persisted weather data</h1>
 <p><a href="rest/weatherReadingResource/all">Show all persisted weather data</a></p>
@@ -26,6 +33,8 @@
     <label>Updated between: </label><input type="date" name="updatedFrom"> and  </label><input type="date" name="updatedTo">
     <button type="submit">OK</button>
 </form>
+
+<p><a href="http://localhost:8080/_ah/admin">Admin console</a></p>
 
 </body>
 </html>
