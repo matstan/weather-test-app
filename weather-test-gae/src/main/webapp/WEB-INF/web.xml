@@ -31,8 +31,12 @@
         <servlet-class>com.weather.test.app.gae.servlet.ParsingServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>weatherReadingQueueServlet</servlet-name>
-        <servlet-class>com.weather.test.app.gae.queue.WeatherReadingQueueServlet</servlet-class>
+        <servlet-name>createWeatherReadingsQueueServlet</servlet-name>
+        <servlet-class>com.weather.test.app.gae.queue.CreateWeatherReadingsQueueServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deleteWeatherReadingQueueServlet</servlet-name>
+        <servlet-class>com.weather.test.app.gae.queue.DeleteWeatherReadingsQueueServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -52,8 +56,12 @@
         <url-pattern>/parsingServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>weatherReadingQueueServlet</servlet-name>
-        <url-pattern>/weatherReadingQueueServlet</url-pattern>
+        <servlet-name>createWeatherReadingsQueueServlet</servlet-name>
+        <url-pattern>/createWeatherReadingsQueueServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deleteWeatherReadingsQueueServlet</servlet-name>
+        <url-pattern>/deleteWeatherReadingsQueueServlet</url-pattern>
     </servlet-mapping>
 
     <filter>

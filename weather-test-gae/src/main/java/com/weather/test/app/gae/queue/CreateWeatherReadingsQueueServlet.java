@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Implements worker logic for push queue worker.
  */
-public class WeatherReadingQueueServlet extends HttpServlet {
+public class CreateWeatherReadingsQueueServlet extends HttpServlet {
 
     /**
      * Parses weather data and stores data to Datastore.
@@ -35,13 +35,11 @@ public class WeatherReadingQueueServlet extends HttpServlet {
         WeatherDataParser weatherDataParser = serviceLocator.getService(WeatherDataParser.class);
         WeatherReadingDao weatherReadingDao = serviceLocator.getService(WeatherReadingDao.class);
 
-        resp.setContentType("text/plain");
-
         String mode = req.getParameter("mode");
         InputStream weatherDataInputStream = null;
 
         if (mode == null) {
-            resp.getWriter().println("Please provide correct input parameters.");
+            return;
         }
         else if (mode.equals("online")) {
             weatherDataInputStream = new URL(WeatherDataParserImpl.WEATHER_DATA_XML_URL).openStream();
