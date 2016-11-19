@@ -1,5 +1,6 @@
 package com.weather.test.app.gae.rest;
 
+import org.glassfish.jersey.media.multipart.MultiPartFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class JerseyApplication extends ResourceConfig {
     public JerseyApplication() {
         log.info("Booting JerseyApplication...");
         register(new Hk2Binder());
+        register(MultiPartFeature.class);
     }
 }
