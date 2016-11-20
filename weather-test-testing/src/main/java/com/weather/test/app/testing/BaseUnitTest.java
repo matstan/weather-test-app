@@ -47,8 +47,6 @@ public class BaseUnitTest extends HK2Runner {
     /** */
     @After
     public void tearDown() throws IOException {
-        AsyncCacheFilter.complete();
-
         // New Objectify 5.1 Way. See https://groups.google.com/forum/#!topic/objectify-appengine/O4FHC_i7EGk
         session.close();
         helper.tearDown();

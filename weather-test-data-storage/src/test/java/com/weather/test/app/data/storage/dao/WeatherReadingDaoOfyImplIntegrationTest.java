@@ -1,5 +1,6 @@
 package com.weather.test.app.data.storage.dao;
 
+import com.weather.test.app.data.datastore.dao.WeatherReadingDao;
 import com.weather.test.app.data.storage.WeatherRedingDataSetFactory;
 import com.weather.test.app.dm.dto.WeatherReadingDto;
 import com.weather.test.app.testing.BaseUnitTest;
