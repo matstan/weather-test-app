@@ -35,12 +35,34 @@
 </form>
 
 <h1>Upload file</h1>
-<form action="/rest/uploadFile/upload" method="POST" enctype="multipart/form-data">
+<form action="/rest/gcsStorage/upload" method="POST" enctype="multipart/form-data">
     <label>File name: </label><input type="file" name="fileToUpload" id="fileToUpload">
     <button type="submit">OK</button>
 </form>
+
+<h1>Download file</h1>
+<form action="#">
+    <label>File name: </label><input id="fileName" type="text" name="fileName">
+    <label>Bucket name: </label><input id="bucketName" type="text" name="bucketName">
+    <a href="#" onclick="downloadFile()">Download</a>
+</form>
+
+<script>
+function downloadFile() {
+    var fileName = document.getElementById("fileName").value;
+    var bucketName = document.getElementById("bucketName").value;
+
+    var request = new XMLHttpRequest();
+    var url = "http://localhost:8080/rest/gcsStorage/download";
+    var params = "fileName=" + fileName + "&bucketName=" + bucketName;
+    window.location = url + "?" + params;
+}
+</script>
+
 
 <p><a href="http://localhost:8080/_ah/admin">Admin console</a></p>
 
 </body>
 </html>
+
+
