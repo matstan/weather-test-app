@@ -1,6 +1,6 @@
 package com.weather.test.app.gae.rest;
 
-import com.weather.test.app.data.storage.dao.WeatherReadingDao;
+import com.weather.test.app.data.datastore.dao.WeatherReadingDao;
 import com.weather.test.app.dm.dto.WeatherReadingDto;
 import com.weather.test.app.gae.rest.utils.DateParsingUtils;
 

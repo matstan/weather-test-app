@@ -1,9 +1,9 @@
 package com.weather.test.app.gae.rest;
 
+import com.weather.test.app.data.datastore.dao.WeatherReadingDao;
+import com.weather.test.app.data.datastore.dao.WeatherReadingDaoOfyImpl;
 import com.weather.test.app.data.parser.WeatherDataParser;
 import com.weather.test.app.data.parser.WeatherDataParserImpl;
-import com.weather.test.app.data.storage.dao.WeatherReadingDao;
-import com.weather.test.app.data.storage.dao.WeatherReadingDaoOfyImpl;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
 
 public class Hk2Binder extends AbstractBinder {

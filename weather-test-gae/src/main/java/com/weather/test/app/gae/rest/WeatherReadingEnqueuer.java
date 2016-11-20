@@ -3,13 +3,8 @@ package com.weather.test.app.gae.rest;
 import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;
 import com.google.appengine.api.taskqueue.TaskOptions;
-import com.weather.test.app.data.parser.WeatherDataParser;
-import com.weather.test.app.data.parser.WeatherDataParserImpl;
-import com.weather.test.app.data.storage.dao.WeatherReadingDao;
-import com.weather.test.app.dm.dto.WeatherReadingDto;
 import org.xml.sax.SAXException;
 
-import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -17,9 +12,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.List;
 
 @Path("weatherReadingEnqueuer")
 public class WeatherReadingEnqueuer {

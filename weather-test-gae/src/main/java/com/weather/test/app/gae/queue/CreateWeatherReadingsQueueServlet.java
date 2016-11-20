@@ -1,8 +1,8 @@
 package com.weather.test.app.gae.queue;
 
+import com.weather.test.app.data.datastore.dao.WeatherReadingDao;
 import com.weather.test.app.data.parser.WeatherDataParser;
 import com.weather.test.app.data.parser.WeatherDataParserImpl;
-import com.weather.test.app.data.storage.dao.WeatherReadingDao;
 import com.weather.test.app.dm.dto.WeatherReadingDto;
 import com.weather.test.app.gae.servlet.Hk2EnablementContextListener;
 import org.glassfish.hk2.api.ServiceLocator;

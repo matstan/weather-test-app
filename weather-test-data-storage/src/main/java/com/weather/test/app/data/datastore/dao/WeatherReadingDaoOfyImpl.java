@@ -1,4 +1,4 @@
-package com.weather.test.app.data.storage.dao;
+package com.weather.test.app.data.datastore.dao;
 
 import com.googlecode.objectify.Key;
 import com.googlecode.objectify.ObjectifyService;

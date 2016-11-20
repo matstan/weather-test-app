@@ -15,6 +15,7 @@
         <app.id>weather-test-gae-app</app.id>
         <app.version>1</app.version>
         <appengine.version>1.9.46</appengine.version>
+        <appengine.gcs.client.version>0.6</appengine.gcs.client.version>
         <gcloud.plugin.version>0.9.58.v20150505</gcloud.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -37,9 +38,9 @@
                 <version>${appengine.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.google.api-client</groupId>
-                <artifactId>google-api-client-appengine</artifactId>
-                <version>${appengine.version}</version>
+                <groupId>com.google.appengine.tools</groupId>
+                <artifactId>appengine-gcs-client</artifactId>
+                <version>${appengine.gcs.client.version}</version>
             </dependency>
 
             <!-- other -->
