@@ -23,6 +23,10 @@
         <servlet-class>com.weather.test.app.gae.servlet.TestServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>fileServlet</servlet-name>
+        <servlet-class>com.weather.test.app.gae.servlet.FileServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>loginServlet</servlet-name>
         <servlet-class>com.weather.test.app.gae.servlet.LoginServlet</servlet-class>
     </servlet>
@@ -46,6 +50,10 @@
     <servlet-mapping>
         <servlet-name>testServlet</servlet-name>
         <url-pattern>/testServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>fileServlet</servlet-name>
+        <url-pattern>/fileServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>loginServlet</servlet-name>

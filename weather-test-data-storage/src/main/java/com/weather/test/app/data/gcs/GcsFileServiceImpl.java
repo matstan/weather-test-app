@@ -9,9 +9,12 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.channels.Channels;
 
+import org.jvnet.hk2.annotations.Service;
+
 /**
  * Created by matic on 20.11.2016.
  */
+@Service
 public class GcsFileServiceImpl implements GcsFileService {
 
     // should be > 1kb and < 10MB

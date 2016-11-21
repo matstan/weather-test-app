@@ -34,8 +34,14 @@
     <button type="submit">OK</button>
 </form>
 
-<h1>Upload file</h1>
+<h1>Upload file (Jersey servlet)</h1>
 <form action="/rest/gcsStorage/upload" method="POST" enctype="multipart/form-data">
+    <label>File name: </label><input type="file" name="fileToUpload" id="fileToUpload">
+    <button type="submit">OK</button>
+</form>
+
+<h1>Upload file (java servlet)</h1>
+<form action="/fileServlet" method="POST" enctype="multipart/form-data">
     <label>File name: </label><input type="file" name="fileToUpload" id="fileToUpload">
     <button type="submit">OK</button>
 </form>
